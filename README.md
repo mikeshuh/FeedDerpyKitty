@@ -1,4 +1,4 @@
-# FeedDerpyKitty: Your Personal Message Service 💕
+# FeedDerpyKitty: Personal Message Service 💕
 Sending scheduled affectionate messages to Derpy Kitty (my girlfriend) for sustenance.
 <div align="center">
   <img src="https://64.media.tumblr.com/d6dfa59fa507e1de71f610b2551e1dce/53a0528a42b8151f-6f/s540x810/313f2d2292dba7be3f3eb6723f668eead64cf57e.gifv" width="150" height="150" alt="Derpy Kitty">
@@ -19,7 +19,7 @@ Built using the following tech stack:
 - **Twilio**: SMS service for message delivery
 - **EventBridge**: Scheduler that triggers messages every hour
 
-## Your Controls 🎛️
+## Your Controls
 
 You have complete control over this service:
 
@@ -31,7 +31,7 @@ You have complete control over this service:
 - Messages resume with a confirmation
 - Reactivates the service whenever you want
 
-## Why I Built This 💝
+## Why I Built This
 
 Our schedules get pretty hectic, and I don't always text as consistently as I'd like. This system ensures you get regular check-ins from me, even during busy periods.
 
@@ -57,7 +57,7 @@ Pretty straightforward; it gets the job done reliably.
 
 Hope these messages brighten your day, especially during stressful times. And if they ever get annoying, just text STOP - no worries at all!
 
-## Questions? 🤔
+## Questions?
 
 If anything stops working, or if you want me to modify the messages, timing, or any other features - just let me know! It's all configurable.
 
