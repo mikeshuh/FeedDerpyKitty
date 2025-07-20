@@ -18,6 +18,8 @@ def lambda_handler(event, context):
     
     client = Client(twilio_account_sid, twilio_auth_token)
     
+    prepend_message = "New Derpy Kitty Mail!\n\n"
+
     messages = [
         # Classic love messages
         "Hey beautiful! Just wanted to remind you that I love you ❤️",
@@ -130,11 +132,59 @@ def lambda_handler(event, context):
         "You're my source of happiness 😊❤️",
         "Feeling grateful for you right now 🙏💖",
         "You're simply amazing! ✨💕",
-        "Love you more than words can say! 💬❤️"
+        "Love you more than words can say! 💬❤️",
+
+        # Chaotic affection
+        "I love you more than raccoons love garbage 🦝❤️",
+        "You're the human version of extra fries and I’m obsessed 🍟💖",
+        "If being cute was illegal, you'd be in jail. Probably forever. 🚨😳",
+        "You're the reason my brain is just static noise but in a good way 📡💘",
+        "Are you a goblin? Because you stole all my thoughts 🧌❤️",
+        "My heart? Yours. My snacks? Debatable. 🍕❤️",
+        "You're so amazing, I’d fight a goose for you. A whole angry goose. 🪿👊",
+        "If life was a video game, you'd be the legendary loot I wasn't even farming for 🎮💖",
+        "You're my favorite notification, followed by pizza delivery updates 🍕📱",
+        "Loving you is like accidentally opening the front camera — shocking but inevitable 😂❤️",
+        
+        # Meme compliments
+        "You're literally the reason the sun rises, probably. I don’t control it though ☀️😎",
+        "You’re the serotonin in my brain soup 🧠🍲",
+        "You're so cool, penguins ask for your autograph 🐧✍️",
+        "Your smile could defeat the final boss of my bad mood 🎮💥",
+        "You're what cats dream about when they zoom at 3am 🐈💨",
+        "You're like a burrito: warm, comforting, and slightly chaotic 🌯🔥",
+        "If beauty had a ranking system, you'd be S-tier. No patch updates required 🎮❤️",
+        "You radiate main character energy, but like… the fun chaotic one 🎬😅",
+        "You're as majestic as a llama in a tiara 🦙👑",
+        "You're so bright, moths probably chase you at night 🦋💡",
+        
+        # Food and animal chaos
+        "I'd share my last chicken nugget with you. And that’s serious love 🍗❤️",
+        "If you were a snack, you'd be the secret menu item everyone wants 🍔✨",
+        "You’re the human equivalent of a perfectly toasted marshmallow 🔥🍡",
+        "Cows probably discuss how legendary you are. Moo moo fame 🐄🎉",
+        "You're cuter than a baby duck tripping over its own feet 🦆💖",
+        "I’d trade my entire bag of chips just to hear your laugh again 🍟😂",
+        "You’re spicier than a jalapeño and sweeter than stolen candy 🌶️🍬",
+        "You're the reason pigeons gather in suspicious groups. They sense greatness 🐦👀",
+        "You're fluffier than a pancake and twice as comforting 🥞❤️",
+        "My love for you is stronger than a raccoon guarding a dumpster at midnight 🦝🛢️💘",
+        
+        # Absolute nonsense
+        "I love you like my brain loves buffering mid-thought 🧠⏳",
+        "If chaos had a mascot, it would be me thinking about you 🌀❤️",
+        "You're my emotional support gremlin. Certified 🛠️🧌",
+        "Your hugs are like patch notes fixing my emotional glitches 💾🤗",
+        "My heart does parkour when I see you. Badly. Probably injured. 🤸‍♂️❤️",
+        "You're like Wi-Fi in a crowded Starbucks: rare and precious 📶💖",
+        "If you disappeared, I’d call animal control because that’d be illegal levels of missing you 🐾🚨",
+        "You're my favorite bug in the simulation 🐛❤️",
+        "Being with you feels like ordering nuggets and getting extra. Unexpected joy 🍗😳",
+        "I'd swim through shark-infested ramen for you. Sharks. And ramen. 🍜🦈❤️"
     ]
     
     try:
-        message = random.choice(messages)
+        message = prepend_message + random.choice(messages)
         
         current_time = datetime.now(timezone.utc)
         time_str = current_time.strftime("%I:%M %p")
