@@ -8,17 +8,16 @@ Hey!
 
 So I built you something - an automated text service that sends you messages throughout the day. It's basically a way for me to check in with you regularly, even when I'm busy.
 
-## What This Is ✨
+## What This Is
 
-An automated messaging system that sends you sweet messages every hour from 6 AM to 12 AM. It's a reminder system that I'm thinking about you, powered by cloud technology.
+An automated messaging system that sends you messages every hour from 6 AM to 12 AM. It's a reminder system that I'm thinking about you, powered by cloud technology.
 
-## How It Works 🤖
+## How It Works
 
-Built using some cool technology:
+Built using the following tech stack:
 - **AWS Lambda**: A serverless function that runs the messaging code
 - **Twilio**: SMS service for message delivery
 - **EventBridge**: Scheduler that triggers messages every hour
-- **15 different messages**: Rotates through various messages
 
 ## Your Controls 🎛️
 
@@ -38,23 +37,21 @@ Our schedules get pretty hectic, and I don't always text as consistently as I'd 
 
 This is just a consistent way to let you know I'm thinking about you throughout the day.
 
-## The Technical Stuff (For the Curious) 🛠️
+## The Technical Stuff (For the Curious)
 
-If you're wondering about the behind-the-scenes magic:
+If you're wondering about the behind-the-scenes details:
 
 - **Cost**: About $9 per month
-- **Reliability**: Runs on Amazon's cloud, so it's super reliable
+- **Reliability**: Runs on Amazon's cloud and through Twilio API, so if it breaks it's their fault
 - **Compliance**: Fully registered with all the telecom regulations (A2P 10DLC compliant)
-- **Privacy**: Only you and I have access to this system
-- **Delivery**: Messages go through professional SMS routes for guaranteed delivery
+- **Delivery**: Messages go through SMS routes
 
-The whole system is written in Python and deployed to AWS. Here's what happens:
-1. EventBridge triggers the function every hour
-2. Lambda function checks if messages are enabled
-3. Randomly selects a message from the pool
-4. Sends via Twilio's SMS API
+The system is written in Python and deployed to AWS. Here's what happens:
+1. EventBridge triggers the function every hour on a cron job
+2. Lambda function reandomly selects a message from the pool
+3. Sends via Twilio's SMS API
 
-Pretty straightforward, but it gets the job done reliably.
+Pretty straightforward; it gets the job done reliably.
 
 ## A Little Note 💌
 
@@ -68,6 +65,6 @@ If you're curious about the technical implementation, I'm happy to walk through 
 
 ---
 
-*Built with ❤️ and AWS Lambda*
+*Built with ❤️... and AWS Lambda*
 
-*P.S. - Yes, I built cloud infrastructure just to send you regular texts. Seemed like a good use of my programming skills.*
+*P.S. - Yes, I built cloud infrastructure just to send you texts. Seemed like a good use of my programming skills.*
