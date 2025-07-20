@@ -10,7 +10,7 @@ So I built you something - an automated text service that sends you messages thr
 
 ## What This Is ✨
 
-An automated messaging system that sends you sweet messages every hour from 6 AM to 11 PM. It's a reminder system that I'm thinking about you, powered by cloud technology.
+An automated messaging system that sends you sweet messages every hour from 6 AM to 12 AM. It's a reminder system that I'm thinking about you, powered by cloud technology.
 
 ## How It Works 🤖
 
@@ -19,12 +19,6 @@ Built using some cool technology:
 - **Twilio**: SMS service for message delivery
 - **EventBridge**: Scheduler that triggers messages every hour
 - **15 different messages**: Rotates through various messages
-
-Sample messages include:
-- "Hey! Just wanted to remind you that I love you ❤️"
-- "Hope you're having a great day! 💕"
-- "Thinking of you 😊"
-- Plus many other variations
 
 ## Your Controls 🎛️
 
@@ -38,8 +32,6 @@ You have complete control over this service:
 - Messages resume with a confirmation
 - Reactivates the service whenever you want
 
-**To Check Status:** Text `STATUS` to see if messages are currently active
-
 ## Why I Built This 💝
 
 Our schedules get pretty hectic, and I don't always text as consistently as I'd like. This system ensures you get regular check-ins from me, even during busy periods.
@@ -50,7 +42,7 @@ This is just a consistent way to let you know I'm thinking about you throughout 
 
 If you're wondering about the behind-the-scenes magic:
 
-- **Cost**: About $6-7 per month
+- **Cost**: About $9 per month
 - **Reliability**: Runs on Amazon's cloud, so it's super reliable
 - **Compliance**: Fully registered with all the telecom regulations (A2P 10DLC compliant)
 - **Privacy**: Only you and I have access to this system
