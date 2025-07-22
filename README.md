@@ -10,7 +10,7 @@ So I built you something - an automated text service that sends you messages thr
 
 ## What This Is
 
-An automated messaging system that sends you messages every hour from 6 AM to 12 AM. It's a reminder system that I'm thinking about you, powered by cloud technology.
+An automated messaging system that sends you messages every hour from 9 AM to 5 PM. It's a reminder system that I'm thinking about you, powered by cloud technology.
 
 ## How It Works
 
