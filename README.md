@@ -1,5 +1,5 @@
-# FeedDerpyKitty: Personal Message Service 💕
-Sending scheduled affectionate messages to Derpy Kitty (my girlfriend) for sustenance.
+# FeedDerpyKitty: Personal Message Service
+Sending scheduled affectionate messages to Derpy Kitty (my girlfriend).
 <div align="center">
   <img src="https://64.media.tumblr.com/d6dfa59fa507e1de71f610b2551e1dce/53a0528a42b8151f-6f/s540x810/313f2d2292dba7be3f3eb6723f668eead64cf57e.gifv" width="150" height="150" alt="Derpy Kitty">
 </div>
@@ -41,7 +41,7 @@ This is just a consistent way to let you know I'm thinking about you throughout 
 
 If you're wondering about the behind-the-scenes details:
 
-- **Cost**: About $9 per month
+- **Cost**: About $5per month
 - **Reliability**: Runs on Amazon's cloud and through Twilio API, so if it breaks it's their fault
 - **Compliance**: Fully registered with all the telecom regulations (A2P 10DLC compliant)
 - **Delivery**: Messages go through SMS routes
